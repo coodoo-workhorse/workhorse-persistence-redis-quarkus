@@ -1,12 +1,12 @@
 # Workhorse Persistence for Redis
 
-> Redis Workhorse-Persistence Implementation
+> Redis Workhorse-Persistence Implementation for Quarkus container
 
 ## Table of Contents
 <img align="right" height="200px" src="logo.png">
 
 - [Prerequisites](#prerequisites)
-- [Get Workhorse](#get-workhorse)
+- [Get Workhorse Persistence Redis](#get-workhorse)
 - [Install](#install)
 - [Getting started](#getting-started)
 - [Maintainers](#maintainers)
@@ -23,30 +23,21 @@ Before you begin, ensure you have met the following requirements:
 
 ## Install
 
-1. Add the following dependency to your project ([published on Maven Central](https://search.maven.org/artifact/io.coodoo/workhorse-persistence-redis/))
+1. Add the following dependency to your project ([published on Maven Central](https://search.maven.org/artifact/io.coodoo/workhorse-persistence-redis-quarkus/))
    
    ```xml
    <dependency>
        <groupId>io.coodoo</groupId>
        <artifactId>workhorse-persistence-redis-quarkus</artifactId>
-       <version>2.0.0-RC3-SNAPSHOT</version>
+       <version>2.0.0-RC4-SNAPSHOT</version>
    </dependency>
    ```
 
 ## Getting started
 
-After the [installation](#install) all you need is create an `RedisPersistenceConfig` instance an pass it to the `start()` method of the `WorkhorseService`.
+To learn more about the engine have a look on the full documentation.
 
-```java
-@Inject
-WorkhorseService workhorseService;
-
-public void startWithRedisPersistence() {
-    RedisPersistenceConfig redisPersistenceConfig = new RedisPersistenceConfigBuilder().build();
-    workhorseService.start(redisPersistenceConfig);
-}
-```
-
+- [Workhorse-persistence-redis](https://gitlab.coodoo.io/workhorse-persistence-redis/-/blob/master/README.md)
 
 ## Changelog
 
