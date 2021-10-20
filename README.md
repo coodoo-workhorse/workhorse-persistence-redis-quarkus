@@ -1,6 +1,6 @@
-# Workhorse Persistence for Redis
+# Workhorse Persistence Redis Quarkus
 
-> Redis Workhorse-Persistence Implementation for Quarkus container
+> Redis Workhorse Persistence Implementation for Quarkus container
 
 ## Table of Contents
 <img align="right" height="200px" src="logo.png">
