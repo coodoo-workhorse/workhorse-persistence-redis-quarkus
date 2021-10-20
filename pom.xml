@@ -5,7 +5,14 @@
   <artifactId>workhorse-persistence-redis-quarkus-parent</artifactId>
   <version>2.0.0-RC4-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>Workhorse Persistence Redis Quarkus - Parent</name>
+  <name>Workhorse Persistence for Redis on Quarkus</name>
+  <description>Quarkus wrapper for Redis's Workhorse-persistence implementation</description>
+  <url>http://workhorse.coodoo.io/</url>
+  <inceptionYear>2021</inceptionYear>
+  <organization>
+    <name>coodoo GmbH</name>
+    <url>https://coodoo.io</url>
+  </organization>
   <modules>
     <module>deployment</module>
     <module>runtime</module>
@@ -21,6 +28,21 @@
     <quarkus.version>2.3.0.Final</quarkus.version>
     <surefire-plugin.version>3.0.0-M5</surefire-plugin.version>
   </properties>
+  <developers>
+    <developer>
+      <name>Yvaris Yemeli Djouda</name>
+      <email>yvaris.djouda@coodoo.de</email>
+      <organization>coodoo GmbH</organization>
+      <organizationUrl>https://coodoo.io</organizationUrl>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
   <dependencyManagement>
     <dependencies>
       <dependency>

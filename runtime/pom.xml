@@ -8,6 +8,18 @@
   </parent>
   <artifactId>workhorse-persistence-redis-quarkus</artifactId>
   <name>Workhorse Persistence Redis Quarkus - Runtime</name>
+  <repositories>
+    <repository>
+      <id>snapshots-repo</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
   <dependencies>
     <dependency>
       <groupId>io.quarkus</groupId>
