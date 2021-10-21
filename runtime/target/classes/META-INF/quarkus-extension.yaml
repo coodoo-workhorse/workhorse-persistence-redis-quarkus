@@ -1,8 +1,0 @@
----
-name: "Workhorse Persistence Redis Quarkus"
-metadata:
-  built-with-quarkus-core: "2.3.0.Final"
-  extension-dependencies:
-  - "io.quarkus:quarkus-arc"
-  - "io.quarkus:quarkus-core"
-artifact: "io.coodoo:workhorse-persistence-redis-quarkus::jar:2.0.0-RC4-SNAPSHOT"
