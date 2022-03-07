@@ -29,7 +29,7 @@ Before you begin, ensure you have met the following requirements:
    <dependency>
        <groupId>io.coodoo</groupId>
        <artifactId>workhorse-persistence-redis-quarkus</artifactId>
-       <version>2.0.0-RC4-SNAPSHOT</version>
+       <version>2.0.0-RC5-SNAPSHOT</version>
    </dependency>
    ```
 

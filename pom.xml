@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.coodoo</groupId>
   <artifactId>workhorse-persistence-redis-quarkus-parent</artifactId>
-  <version>2.0.0-RC4-SNAPSHOT</version>
+  <version>2.0.0-RC5-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Workhorse Persistence for Redis on Quarkus</name>
   <description>Quarkus wrapper for Redis's Workhorse-persistence implementation</description>
